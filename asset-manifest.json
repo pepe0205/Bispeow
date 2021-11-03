@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Bispeow/static/css/main.b4cc4fc4.chunk.css",
+    "main.js": "/Bispeow/static/js/main.777562ad.chunk.js",
+    "main.js.map": "/Bispeow/static/js/main.777562ad.chunk.js.map",
+    "runtime-main.js": "/Bispeow/static/js/runtime-main.9e775ae1.js",
+    "runtime-main.js.map": "/Bispeow/static/js/runtime-main.9e775ae1.js.map",
+    "static/css/2.c1256375.chunk.css": "/Bispeow/static/css/2.c1256375.chunk.css",
+    "static/js/2.e812d1d8.chunk.js": "/Bispeow/static/js/2.e812d1d8.chunk.js",
+    "static/js/2.e812d1d8.chunk.js.map": "/Bispeow/static/js/2.e812d1d8.chunk.js.map",
+    "static/js/3.d2e29e8e.chunk.js": "/Bispeow/static/js/3.d2e29e8e.chunk.js",
+    "static/js/3.d2e29e8e.chunk.js.map": "/Bispeow/static/js/3.d2e29e8e.chunk.js.map",
+    "index.html": "/Bispeow/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/Bispeow/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.b4cc4fc4.chunk.css.map": "/Bispeow/static/css/main.b4cc4fc4.chunk.css.map",
+    "static/js/2.e812d1d8.chunk.js.LICENSE.txt": "/Bispeow/static/js/2.e812d1d8.chunk.js.LICENSE.txt",
+    "static/media/Logo.855fa73f.png": "/Bispeow/static/media/Logo.855fa73f.png",
+    "static/media/facebook.0fa94395.png": "/Bispeow/static/media/facebook.0fa94395.png",
+    "static/media/home.b52a5495.png": "/Bispeow/static/media/home.b52a5495.png",
+    "static/media/instagram.2ddfb599.png": "/Bispeow/static/media/instagram.2ddfb599.png",
+    "static/media/latra.01b1712d.png": "/Bispeow/static/media/latra.01b1712d.png",
+    "static/media/logo2.f371adb8.png": "/Bispeow/static/media/logo2.f371adb8.png",
+    "static/media/phone.07c5f074.png": "/Bispeow/static/media/phone.07c5f074.png",
+    "static/media/slider1.ce89adcb.jpg": "/Bispeow/static/media/slider1.ce89adcb.jpg",
+    "static/media/about.css": "/Bispeow/static/media/slider2.d2e9029c.jpg",
+    "static/media/slider3.74c9a5ad.jpg": "/Bispeow/static/media/slider3.74c9a5ad.jpg",
+    "static/media/sugar.639029cb.png": "/Bispeow/static/media/sugar.639029cb.png",
+    "static/media/tranchau.86653f80.png": "/Bispeow/static/media/tranchau.86653f80.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e775ae1.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.e812d1d8.chunk.js",
+    "static/css/main.b4cc4fc4.chunk.css",
+    "static/js/main.777562ad.chunk.js"
+  ]
+}
