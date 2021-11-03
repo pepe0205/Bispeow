@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Bispeow/static/css/main.b4cc4fc4.chunk.css",
-    "main.js": "/Bispeow/static/js/main.d3501a83.chunk.js",
-    "main.js.map": "/Bispeow/static/js/main.d3501a83.chunk.js.map",
+    "main.js": "/Bispeow/static/js/main.af9d775f.chunk.js",
+    "main.js.map": "/Bispeow/static/js/main.af9d775f.chunk.js.map",
     "runtime-main.js": "/Bispeow/static/js/runtime-main.9e775ae1.js",
     "runtime-main.js.map": "/Bispeow/static/js/runtime-main.9e775ae1.js.map",
     "static/css/2.c1256375.chunk.css": "/Bispeow/static/css/2.c1256375.chunk.css",
@@ -32,6 +32,6 @@
     "static/css/2.c1256375.chunk.css",
     "static/js/2.e812d1d8.chunk.js",
     "static/css/main.b4cc4fc4.chunk.css",
-    "static/js/main.d3501a83.chunk.js"
+    "static/js/main.af9d775f.chunk.js"
   ]
 }
