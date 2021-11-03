@@ -1,0 +1,29 @@
+.sub-nav{
+    background-color: wheat;
+    box-shadow: 5px 5px 10px  #aaaaaa;
+
+    position: absolute;
+    left: 16%;
+    top: 45px;
+    width: 43%;
+
+    
+   
+
+}
+.subnav-inner{
+    padding: 5px 5px;
+    margin:10px 10px;
+    text-align: center;
+}
+.subnav-inner a{
+    margin-left: 0;
+    margin-bottom: 15px;
+
+    font-size: 16px;
+    font-weight: lighter;
+    color: initial;
+
+    width: 100%;
+    display:block;
+}

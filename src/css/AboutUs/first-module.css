@@ -1,0 +1,29 @@
+.main-fistmodule{
+    width: 100%;
+    margin-top: 7%;
+  
+}
+.firstmodule-inner{
+    position: relative;
+    
+}
+.bg-img{
+    width: 100%;
+    box-shadow: 30px 10px 30px #aaaaaa;
+}
+.first-module-inner-content{
+    position: absolute;
+    top:30%;
+    left: 5%;
+}
+.first-module-inner-content h1{
+    
+  font-size: 40px;
+  font-weight: bold;
+  color: aliceblue;
+  -webkit-text-stroke: 2px brown;
+}
+.first-module-inner-content p{
+    color: aliceblue;
+    font-size: 25px;
+}

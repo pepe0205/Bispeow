@@ -1,0 +1,65 @@
+.carousel {
+    width: 80%;
+    float:right;
+}
+.carousel-inner    {
+    width: 80% !important;
+}
+.carousel-control-next {
+  
+    right: 100px !important;
+}
+.main-drink{
+    width: 100%;
+    margin: 100px auto 0px auto;
+    display: flex;
+    
+    animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+.store-inner{
+    background-color: #f5eee8 ;
+    width: 100%;
+    display: flex;
+}
+.col-drink-left{  
+    width: 56%;   
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 20px 5px 20px;
+    padding-left: 85px;
+}
+
+.col-drink-left h1{
+    font-size: 50px;
+    color: wheat;
+    font-weight: bolder;
+    
+    -webkit-text-stroke: 2px brown;
+   
+}
+.col-drink-left p{
+    font-size: 23px ;
+    font-weight: lighter;
+    line-height: 2;
+    margin-top: 20px;
+}
+.col-drink-left img{
+    width: 26%;
+}
+.col-drink-right {
+    
+    flex:1;
+    margin: 20px 20px 5px 20px;
+    text-align: center;
+}

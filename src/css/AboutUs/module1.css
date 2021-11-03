@@ -1,0 +1,83 @@
+.main-module1{
+    padding-top:100px;
+    /*background-image: url('../../public//image/AboutUs/background.jpg');*/
+}
+.module1-inner{
+     
+}
+.module1-item{
+    display: flex;
+    margin-bottom: 50px;
+}
+.col-module1-left{
+    
+    width: 50%;
+    margin-left: 82px;
+}
+.col-module1-left img{
+    width: 75%;
+}
+.col-module1-right{
+   width: 40%;
+   position: relative;
+  
+   
+ 
+}
+.col-module1-right p{
+    position: absolute;
+
+    left: -91px;
+    bottom: 118px;
+
+    font-size: 20px;
+    
+}
+.module1-circle{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    text-align: center;
+
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #f8e5de;
+    box-shadow: 3px 3px 3px #aaaaaa;
+    color: white;
+}
+.circle p{
+    position: absolute;
+    top: 37%;
+    left: 6%;
+
+    color: #b91f32;
+    font-size: 20px;
+   
+}
+.circle-tea{
+    position: absolute;
+    top: 26%;
+    left: 51%;
+
+    text-align: center;
+    width: 170px;
+    height: 170px;
+
+    border-radius: 50%;
+    
+    background-color: #f8e5de;
+    box-shadow: 3px 3px 3px #aaaaaa;
+    color: white;
+}
+.circle-tea p{
+    position: absolute;
+    top: 37%;
+    left: 6%;
+
+    color: #b91f32;
+    font-size: 20px;
+}
