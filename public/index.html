@@ -1,65 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="../../src/public/image/logo2.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
-    <script
-      src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-      crossorigin></script>
-    
-    <script
-      src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-      crossorigin></script>
-    
-    <script>var Alert = ReactBootstrap.Alert;</script>
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-  integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-  crossorigin="anonymous"
-/>
-      
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- CSS only -->
- 
-    <title>Trang chủ</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tim CAI LON</title>
+  <link rel="stylesheet" href="magic.css">
+</head>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 92vh;
+    background: black;
+	font-family: "Poppins", sans-serif;
+}
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+.heart {
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: relative;
+    transform: rotate(-45deg);
+    box-shadow: -10px 10px 90px red;
+    animation: heart 1s linear infinite;
+}
+.text {
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: relative;
+    box-shadow: -10px 10px 90px red;
+}
+@keyframes heart {
+    0% {
+        transform: rotate(-45deg) scale(1.00);
+    }
+	20%{
+		transform: rotate(-40deg) scale(1.00);
+	}
+    80% {
+        transform: rotate(-45deg) scale(0.90);
+    }
+    100% {
+        transform: rotate(-40deg) scale(0.80);
+    }
+}
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+.heart::before {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: red;
+    top: -55%;
+    border-radius: 50px;
+    box-shadow: -10px 10px 90px red;
+}
+
+.heart::after {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: red;
+    right: -55%;
+    border-radius: 50px;
+    box-shadow: -10px 10px 90px red;
+}
+
+.content {
+  position: relative;
+}
+.content1 h2 {
+  color: #fff;
+  font-size: 12em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: -27px;
+  margin-left:-50px;
+}
+
+.content1 h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+.content1 h2:nth-child(2) {
+  color: gainsboro;
+  animation: animate 4s ease-in-out infinite;
+}
+.content h2 {
+  color: #fff;
+  font-size: 12em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50;
+  margin-left:-50px;
+}
+
+.content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+.content h2:nth-child(2) {
+  color: red;
+  animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+.signature h2{
+	color: #fff;
+	font-size: 2em;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 12;
+	margin-left: -50px;
+	left: 174px;
+}
+</style>
+<body>
+  <div class="heart"></div>
+   <div class="content1">
+    <h2>HEART</h2>
+    <h2>HEART</h2>
+  </div>
+  <div class="content">
+    <h2>CAILON</h2>
+    <h2>CAILON</h2>
+  </div>
+   <div class="signature">
+    <h2>@@PEPE</h2>
+  </div>
+</body>
 </html>
